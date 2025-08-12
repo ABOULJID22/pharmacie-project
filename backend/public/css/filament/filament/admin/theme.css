@@ -1,0 +1,73 @@
+@import "/vendor/filament/filament/resources/css/theme.css";
+
+@config 'tailwind.config.js';
+
+@layer components {
+    .fi-main {
+        max-width: none !important;
+    }
+
+    /* .fi-sidebar {
+        height: auto !important;
+    }
+
+    .fi-sidebar-nav {
+        height: 113vh;
+    }
+
+    body {
+        zoom: 80%;
+    }
+
+    /* .fi-dropdown {
+        transform: scale(1);
+        z-index: 10;
+    }
+
+    .fi-dropdown-panel {
+        z-index: 10;
+    }
+
+    .fi-modal-window {
+        min-height: 100vh;
+        height: 100vh !important;
+    } */
+
+    .fi-sidebar-nav::-webkit-scrollbar {
+        width: 6px;
+        background-color: #fff;
+        @apply dark:bg-gray-900;
+    }
+    /* Customize Thumb */
+    .fi-sidebar-nav::-webkit-scrollbar-thumb {
+        @apply bg-gray-300 dark:bg-gray-600;
+        border-radius: 10px;
+    }
+    .fi-sidebar-nav::-webkit-scrollbar-thumb:hover {
+        @apply bg-gray-400 dark:bg-gray-500;
+    }
+    .fi-sidebar-nav::-webkit-scrollbar-thumb:active {
+        @apply bg-gray-400 dark:bg-gray-500;
+    }
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+        background-color: #fff;
+        @apply dark:bg-gray-900;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply bg-gray-300 dark:bg-gray-600;
+        border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        @apply bg-gray-400 dark:bg-gray-500;
+        cursor: pointer;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        @apply bg-gray-400 dark:bg-gray-500;
+    }
+}
