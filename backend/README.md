@@ -1,5 +1,4 @@
-# NOM DU PROJET
-
+# pharmacie-project
 Une application web moderne construite avec **Laravel** (backend), **React** (frontend), **Vite** (build tool), **Inertia.js** (SPA), et **Filament** (admin panel).  
 Ce projet offre une base robuste pour développer des applications web performantes, modulaires et maintenables.
 
