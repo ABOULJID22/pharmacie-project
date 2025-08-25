@@ -30,7 +30,8 @@ Ce projet offre une base robuste pour développer des applications web performan
 
 1. **Cloner le repository**
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-projet.git
+   git clone [https://github.com/votre-utilisateur/votre-projet.git](https://github.com/ABOULJID22/pharmacie-project.git)
+   
    cd votre-projet
    ```
 
